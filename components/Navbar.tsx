@@ -17,7 +17,7 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 px-4 py-4 md:px-6 md:py-6 md:mix-blend-difference text-black bg-white">
+    <nav className="fixed top-0 left-0 w-full z-50 px-4 py-4 md:px-6 md:py-6 text-black bg-white">
       <div className="max-w-screen-2xl mx-auto flex justify-between items-center">
         <Link href="/">
           <motion.span

@@ -14,6 +14,9 @@ import {
   SiExpress,
   SiRedux,
   SiExpo,
+  SiBootstrap,
+  SiGit,
+  SiJest,
 } from "react-icons/si";
 
 const techLogos = [
@@ -73,6 +76,21 @@ const techLogos = [
     node : <SiExpo />,
     title: "Expo",
     href: "https://expo.dev",
+  },
+  {
+    node : <SiBootstrap />,
+    title: "Bootstrap",
+    href: "https://getbootstrap.com",
+  },
+  {
+    node: <SiGit />,
+    title: "Git",
+    href: "https://git-scm.com",
+  },
+  {
+    node: <SiJest />,
+    title: "Jest",
+    href: "https://jestjs.io",
   }
 ];
 
